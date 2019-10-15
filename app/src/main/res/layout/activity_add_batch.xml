@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context=".AddBatch">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Batch Title:"
+            android:textSize="18dp"
+            android:textColor="#000"
+            android:fontFamily="serif"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/BatchTitle_EdtTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10px"
+            android:inputType="text"
+            android:text=""
+            android:textStyle="normal"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif"
+            android:hint="Enter fullname of batch"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Batch Abbreviation:"
+            android:textSize="18dp"
+            android:textColor="#000"
+            android:fontFamily="serif"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/BatchAbbreviation_EdtTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10px"
+            android:inputType="text"
+            android:text=""
+            android:textStyle="normal"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif"
+            android:hint="Enter the abbreviation"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Batch Number:"
+            android:textSize="18dp"
+            android:textColor="#000"
+            android:fontFamily="serif"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/BatchNumber_EdtTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10px"
+            android:inputType="number"
+            android:text=""
+            android:textStyle="normal"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif"
+            android:hint="Enter batch number"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Batch Duration:"
+            android:textSize="18dp"
+            android:textColor="#000"
+            android:fontFamily="serif"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/BatchDuration_EdtTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10px"
+            android:inputType="number"
+            android:text=""
+            android:textStyle="normal"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif"
+            android:hint="Enter number of months"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Day Schedule:"
+            android:textSize="18dp"
+            android:textColor="#000"
+            android:fontFamily="serif"
+            android:textStyle="bold"/>
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/DaySchedule_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/DaySchedule_array"
+            android:layout_marginTop="10px"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Batch Timing:"
+            android:textSize="18dp"
+            android:textColor="#000"
+            android:fontFamily="serif"
+            android:textStyle="bold"/>
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/BatchTiming_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/BatchTiming_array"
+            android:layout_marginTop="10px"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Total Fees:"
+            android:textSize="18dp"
+            android:textColor="#000"
+            android:fontFamily="serif"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/BatchFees_EdtTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10px"
+            android:inputType="number"
+            android:text=""
+            android:textStyle="normal"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif"
+            android:hint="Enter fees"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Description:"
+            android:textSize="18dp"
+            android:textColor="#000"
+            android:fontFamily="serif"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/BatchDescription_EdtTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10px"
+            android:inputType="textMultiLine"
+            android:text=""
+            android:textStyle="normal"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif"
+            android:hint="Enter description"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="10dp">
+            <Button
+                android:id="@+id/AddBatch_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ADD"
+                android:textSize="25dp"
+                android:background="@drawable/btn_effect"
+                android:layout_marginLeft="55dp"
+                android:textColor="#fff"
+                android:fontFamily="sans-serif"
+                />
+            <Button
+                android:id="@+id/goBack_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BACK"
+                android:textSize="25dp"
+                android:textColor="#fff"
+                android:fontFamily="sans-serif"
+                android:background="@drawable/btn_effect"
+                android:layout_marginLeft="50dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Admin Portal</string>
+
+    <string-array name="security_array">
+        <item>--Select question--</item>
+        <item>What is your old school name?</item>
+        <item>What is your old phone number?</item>
+        <item>Who is your favourite player?</item>
+        <item>Who is your favourite teacher?</item>
+        <item>Which is your favourite sport?</item>
+    </string-array>
+
+    <string-array name="DaySchedule_array">
+        <item>--Select--</item>
+        <item>Weekends</item>
+        <item>Week days</item>
+        <item>Mon,Tue,Wed</item>
+        <item>Thu,Fri</item>
+        <item>Thu,Fri,Mon</item>
+        <item>Mon-Thu</item>
+        <item>Inform through mail</item>
+    </string-array>
+
+    <string-array name="BatchTiming_array">
+        <item>--Select--</item>
+        <item>8am-11am</item>
+        <item>8am-12:30am</item>
+        <item>5pm-8pm</item>
+        <item>5:30pm-8:30pm</item>
+        <item>Inform through mail</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,178 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/vinayak/AndroidStudioProjects/InstituteAdmin/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /home/vinayak/AndroidStudioProjects/InstituteAdmin/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /home/vinayak/AndroidStudioProjects/InstituteAdmin/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /home/vinayak/AndroidStudioProjects/InstituteAdmin/app/src/main/AndroidManifest.xml:2:1-27:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0f674dd5c4c7a19a9b80f1d19fac4c05/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/vinayak/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/6ed9644472bfb8194eb74e48860d221d/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/932a50372a7e4deabc033065d5a68cc0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/26f9affb0e96bb8be7b867024c21de78/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/cfeccabb5baa68eeceb1de68ef27702f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/c2e6c65d225a6bb90aeed6b8fd1084c2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/7786a178cb5e6217954c1519a0091872/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/b396aec95a21c3857c37e08d71c892e2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/3638d595fbc8df7c3145385b43d9bfcc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/62434a404bc7813f755281540be8400a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/b87c0f65de7ef636a7f39f1d59a4fbfc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/1dab4454474b1a34e6a2b07a6dd8387e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/935d64428804efbe6e46188030dbdf0e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/37b88f5544762eb0e0a7d1293f574ad3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/a680b0738bda3368ccfa9c1e91c5d198/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/665068ddbc392bdec5780796d0b558db/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/d4addc2cd7476facfccbbdb85b941498/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/157e9b5e4e3d503cc436916a4306eafe/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/vinayak/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/a1154200416586d28da7ef26eb627f49/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/d23b3e0ccd1a964b3a2411e730f1ac2d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/ac614c4e2102b59bcf130811cc161ae8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/156f0bcc0d6c74aeabd22476b7bc09d7/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/vinayak/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/a4182be721be0a7a71115eaed537c905/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/vinayak/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/c7ac91a14a700dddc69ff6792513d187/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/vinayak/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/129a5325140996b3a86d31d6e54fc2ae/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/vinayak/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/0e69beb660ec82f1bec438b4ea745a1e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/879de32c19923946b1c6290032f32fc8/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/vinayak/AndroidStudioProjects/InstituteAdmin/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /home/vinayak/AndroidStudioProjects/InstituteAdmin/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /home/vinayak/AndroidStudioProjects/InstituteAdmin/app/src/main/AndroidManifest.xml:2:1-27:12
+	package
+		ADDED from /home/vinayak/AndroidStudioProjects/InstituteAdmin/app/src/main/AndroidManifest.xml:3:5-49
+		INJECTED from /home/vinayak/AndroidStudioProjects/InstituteAdmin/app/src/main/AndroidManifest.xml
+		INJECTED from /home/vinayak/AndroidStudioProjects/InstituteAdmin/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/vinayak/AndroidStudioProjects/InstituteAdmin/app/src/main/AndroidManifest.xml
+		ADDED from /home/vinayak/AndroidStudioProjects/InstituteAdmin/app/src/main/AndroidManifest.xml:2:1-27:12
+		INJECTED from /home/vinayak/AndroidStudioProjects/InstituteAdmin/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/vinayak/AndroidStudioProjects/InstituteAdmin/app/src/main/AndroidManifest.xml
+		ADDED from /home/vinayak/AndroidStudioProjects/InstituteAdmin/app/src/main/AndroidManifest.xml:2:1-27:12
+		INJECTED from /home/vinayak/AndroidStudioProjects/InstituteAdmin/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/vinayak/AndroidStudioProjects/InstituteAdmin/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /home/vinayak/AndroidStudioProjects/InstituteAdmin/app/src/main/AndroidManifest.xml:5:5-25:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/vinayak/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/6ed9644472bfb8194eb74e48860d221d/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/vinayak/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/6ed9644472bfb8194eb74e48860d221d/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/665068ddbc392bdec5780796d0b558db/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/665068ddbc392bdec5780796d0b558db/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/d4addc2cd7476facfccbbdb85b941498/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/d4addc2cd7476facfccbbdb85b941498/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/665068ddbc392bdec5780796d0b558db/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /home/vinayak/AndroidStudioProjects/InstituteAdmin/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /home/vinayak/AndroidStudioProjects/InstituteAdmin/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /home/vinayak/AndroidStudioProjects/InstituteAdmin/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /home/vinayak/AndroidStudioProjects/InstituteAdmin/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /home/vinayak/AndroidStudioProjects/InstituteAdmin/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /home/vinayak/AndroidStudioProjects/InstituteAdmin/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.example.vinayak.instituteadmin.MainActivity
+ADDED from /home/vinayak/AndroidStudioProjects/InstituteAdmin/app/src/main/AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from /home/vinayak/AndroidStudioProjects/InstituteAdmin/app/src/main/AndroidManifest.xml:12:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/vinayak/AndroidStudioProjects/InstituteAdmin/app/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /home/vinayak/AndroidStudioProjects/InstituteAdmin/app/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /home/vinayak/AndroidStudioProjects/InstituteAdmin/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/vinayak/AndroidStudioProjects/InstituteAdmin/app/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /home/vinayak/AndroidStudioProjects/InstituteAdmin/app/src/main/AndroidManifest.xml:16:27-74
+activity#com.example.vinayak.instituteadmin.Register_Admin
+ADDED from /home/vinayak/AndroidStudioProjects/InstituteAdmin/app/src/main/AndroidManifest.xml:19:9-52
+	android:name
+		ADDED from /home/vinayak/AndroidStudioProjects/InstituteAdmin/app/src/main/AndroidManifest.xml:19:19-49
+activity#com.example.vinayak.instituteadmin.MainMenu
+ADDED from /home/vinayak/AndroidStudioProjects/InstituteAdmin/app/src/main/AndroidManifest.xml:20:9-46
+	android:name
+		ADDED from /home/vinayak/AndroidStudioProjects/InstituteAdmin/app/src/main/AndroidManifest.xml:20:19-43
+activity#com.example.vinayak.instituteadmin.BatchDetails
+ADDED from /home/vinayak/AndroidStudioProjects/InstituteAdmin/app/src/main/AndroidManifest.xml:21:9-50
+	android:name
+		ADDED from /home/vinayak/AndroidStudioProjects/InstituteAdmin/app/src/main/AndroidManifest.xml:21:19-47
+activity#com.example.vinayak.instituteadmin.AddStudent
+ADDED from /home/vinayak/AndroidStudioProjects/InstituteAdmin/app/src/main/AndroidManifest.xml:22:9-48
+	android:name
+		ADDED from /home/vinayak/AndroidStudioProjects/InstituteAdmin/app/src/main/AndroidManifest.xml:22:19-45
+activity#com.example.vinayak.instituteadmin.AddBatch
+ADDED from /home/vinayak/AndroidStudioProjects/InstituteAdmin/app/src/main/AndroidManifest.xml:23:9-46
+	android:name
+		ADDED from /home/vinayak/AndroidStudioProjects/InstituteAdmin/app/src/main/AndroidManifest.xml:23:19-43
+activity#com.example.vinayak.instituteadmin.StudentAddmission
+ADDED from /home/vinayak/AndroidStudioProjects/InstituteAdmin/app/src/main/AndroidManifest.xml:24:9-64
+	android:name
+		ADDED from /home/vinayak/AndroidStudioProjects/InstituteAdmin/app/src/main/AndroidManifest.xml:24:19-52
+uses-sdk
+INJECTED from /home/vinayak/AndroidStudioProjects/InstituteAdmin/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/vinayak/AndroidStudioProjects/InstituteAdmin/app/src/main/AndroidManifest.xml
+INJECTED from /home/vinayak/AndroidStudioProjects/InstituteAdmin/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0f674dd5c4c7a19a9b80f1d19fac4c05/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0f674dd5c4c7a19a9b80f1d19fac4c05/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/vinayak/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/6ed9644472bfb8194eb74e48860d221d/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/vinayak/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/6ed9644472bfb8194eb74e48860d221d/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/932a50372a7e4deabc033065d5a68cc0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/932a50372a7e4deabc033065d5a68cc0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/26f9affb0e96bb8be7b867024c21de78/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/26f9affb0e96bb8be7b867024c21de78/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/cfeccabb5baa68eeceb1de68ef27702f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/cfeccabb5baa68eeceb1de68ef27702f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/c2e6c65d225a6bb90aeed6b8fd1084c2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/c2e6c65d225a6bb90aeed6b8fd1084c2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/7786a178cb5e6217954c1519a0091872/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/7786a178cb5e6217954c1519a0091872/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/b396aec95a21c3857c37e08d71c892e2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/b396aec95a21c3857c37e08d71c892e2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/3638d595fbc8df7c3145385b43d9bfcc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/3638d595fbc8df7c3145385b43d9bfcc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/62434a404bc7813f755281540be8400a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/62434a404bc7813f755281540be8400a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/b87c0f65de7ef636a7f39f1d59a4fbfc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/b87c0f65de7ef636a7f39f1d59a4fbfc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/1dab4454474b1a34e6a2b07a6dd8387e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/1dab4454474b1a34e6a2b07a6dd8387e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/935d64428804efbe6e46188030dbdf0e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/935d64428804efbe6e46188030dbdf0e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/37b88f5544762eb0e0a7d1293f574ad3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/37b88f5544762eb0e0a7d1293f574ad3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/a680b0738bda3368ccfa9c1e91c5d198/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/a680b0738bda3368ccfa9c1e91c5d198/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/665068ddbc392bdec5780796d0b558db/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/665068ddbc392bdec5780796d0b558db/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/d4addc2cd7476facfccbbdb85b941498/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/d4addc2cd7476facfccbbdb85b941498/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/157e9b5e4e3d503cc436916a4306eafe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/157e9b5e4e3d503cc436916a4306eafe/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/vinayak/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/a1154200416586d28da7ef26eb627f49/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/vinayak/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/a1154200416586d28da7ef26eb627f49/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/d23b3e0ccd1a964b3a2411e730f1ac2d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/d23b3e0ccd1a964b3a2411e730f1ac2d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/ac614c4e2102b59bcf130811cc161ae8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/ac614c4e2102b59bcf130811cc161ae8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/156f0bcc0d6c74aeabd22476b7bc09d7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/156f0bcc0d6c74aeabd22476b7bc09d7/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/vinayak/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/a4182be721be0a7a71115eaed537c905/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/vinayak/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/a4182be721be0a7a71115eaed537c905/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/vinayak/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/c7ac91a14a700dddc69ff6792513d187/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/vinayak/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/c7ac91a14a700dddc69ff6792513d187/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/vinayak/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/129a5325140996b3a86d31d6e54fc2ae/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/vinayak/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/129a5325140996b3a86d31d6e54fc2ae/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/vinayak/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/0e69beb660ec82f1bec438b4ea745a1e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/vinayak/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/0e69beb660ec82f1bec438b4ea745a1e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/879de32c19923946b1c6290032f32fc8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/vinayak/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/879de32c19923946b1c6290032f32fc8/AndroidManifest.xml:20:5-44
+INJECTED from /home/vinayak/AndroidStudioProjects/InstituteAdmin/app/src/main/AndroidManifest.xml
+INJECTED from /home/vinayak/AndroidStudioProjects/InstituteAdmin/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/vinayak/AndroidStudioProjects/InstituteAdmin/app/src/main/AndroidManifest.xml
+		ADDED from /home/vinayak/AndroidStudioProjects/InstituteAdmin/app/src/main/AndroidManifest.xml
+		INJECTED from /home/vinayak/AndroidStudioProjects/InstituteAdmin/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/vinayak/AndroidStudioProjects/InstituteAdmin/app/src/main/AndroidManifest.xml
+		ADDED from /home/vinayak/AndroidStudioProjects/InstituteAdmin/app/src/main/AndroidManifest.xml
+		INJECTED from /home/vinayak/AndroidStudioProjects/InstituteAdmin/app/src/main/AndroidManifest.xml

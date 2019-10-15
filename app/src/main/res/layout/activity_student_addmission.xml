@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentAddmission"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Student Name:"
+            android:textSize="18dp"
+            android:textColor="#000"
+            android:fontFamily="serif"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/studName_EdtTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10px"
+            android:inputType="text"
+            android:text=""
+            android:textStyle="normal"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif"
+            android:hint="Enter student's full name"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="E-mail ID:"
+            android:textSize="18dp"
+            android:textColor="#000"
+            android:fontFamily="serif"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/studEmail_EdtTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10px"
+            android:inputType="text"
+            android:text=""
+            android:textStyle="normal"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif"
+            android:hint="Enter student's email id"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Contact number:"
+            android:textSize="18dp"
+            android:textColor="#000"
+            android:fontFamily="serif"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/studCntct_EdtTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10px"
+            android:inputType="number"
+            android:text=""
+            android:textStyle="normal"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif"
+            android:hint="Enter student's contact number"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Batch:"
+            android:textSize="18dp"
+            android:textColor="#000"
+            android:fontFamily="serif"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/studBatch_EdtTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10px"
+            android:text=""
+            android:textStyle="normal"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif"
+            android:hint="Tap to select..."
+            android:tooltipText="Tap to select batch..."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Emergency number:"
+            android:textSize="18dp"
+            android:textColor="#000"
+            android:fontFamily="serif"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/studEmergency_EdtTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10px"
+            android:inputType="number"
+            android:text=""
+            android:textStyle="normal"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif"
+            android:hint="Enter student's emergency number"/>
+
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

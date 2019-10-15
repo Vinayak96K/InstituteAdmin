@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/vinayak/AndroidStudioProjects/InstituteAdmin/app/.externalNativeBuild/cmake/debug/x86",
+  "command": "/home/vinayak/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=i686-none-linux-android23 --gcc-toolchain=/home/vinayak/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/linux-x86_64 --sysroot=/home/vinayak/Android/Sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem /home/vinayak/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/vinayak/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/vinayak/Android/Sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o -c /home/vinayak/AndroidStudioProjects/InstituteAdmin/app/src/main/cpp/native-lib.cpp",
+  "file": "/home/vinayak/AndroidStudioProjects/InstituteAdmin/app/src/main/cpp/native-lib.cpp"
+}
+]

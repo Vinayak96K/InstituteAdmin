@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/background">
+
+
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/logo"
+        android:background="@drawable/logo_img"
+        android:layout_marginTop="0dp"/>
+
+    <EditText
+        android:id="@+id/Uname_EdtTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:hint="Enter username..."
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/Pass_EdtTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:inputType="textPassword"
+        android:hint="Enter password..."
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/fPass_lbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Forgot Password?"
+        android:textColor="#02a499"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="12dp"/>
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/Signed_ChkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:text="Keep me signed in!"
+        />
+
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="20dp">
+        <Button
+            android:id="@+id/submit_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SUBMIT"
+            android:textSize="25dp"
+            android:background="@drawable/btn_effect"
+            android:layout_marginLeft="55dp"
+            android:textColor="#fff"
+            android:fontFamily="sans-serif"
+            />
+        <Button
+            android:id="@+id/cancel_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:textSize="25dp"
+            android:textColor="#fff"
+            android:fontFamily="sans-serif"
+            android:background="@drawable/btn_effect"
+            android:layout_marginLeft="50dp"
+            />
+    </LinearLayout>
+    
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/regAdmin_lbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:text="Register Admin..."
+        android:textColor="#09a904"
+        android:layout_marginTop="10dp"/>
+    
+</android.support.v7.widget.LinearLayoutCompat>
